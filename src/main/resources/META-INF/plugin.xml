@@ -2,9 +2,9 @@
     <id>com.github.menwhorust.tomorrownighttheme</id>
     <name>Tomorrow Night Theme</name>
     <vendor>menwhorust</vendor>
-        <description><![CDATA[
+    <description>
     A tomorrow night theme
-    ]]></description>
+    </description>
 
     <!-- Product and plugin compatibility requirements -->
     <!-- https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html -->
