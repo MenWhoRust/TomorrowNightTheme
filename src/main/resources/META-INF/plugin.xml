@@ -9,12 +9,6 @@
 
     <extensions defaultExtensionNs="com.intellij">
         <themeProvider id="89af85a8-555f-447d-979a-a86e05828058" path="/Tomorrow_Night.theme.json"/>
-        <applicationService serviceImplementation="com.github.menwhorust.tomorrownighttheme.services.MyApplicationService"/>
-        <projectService serviceImplementation="com.github.menwhorust.tomorrownighttheme.services.MyProjectService"/>
     </extensions>
 
-    <applicationListeners>
-        <listener class="com.github.menwhorust.tomorrownighttheme.listeners.MyProjectManagerListener"
-                  topic="com.intellij.openapi.project.ProjectManagerListener"/>
-    </applicationListeners>
 </idea-plugin>
