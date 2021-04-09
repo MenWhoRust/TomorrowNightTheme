@@ -21,7 +21,7 @@
         <option name="DIFF_SEPARATORS_BACKGROUND" value="1e2a30" />
         <option name="DIFF_SEPARATORS_TOP_BORDER" value="1b262b" />
         <option name="DOCUMENTATION_COLOR" value="1d1f21" />
-        <option name="FILESTATUS_ADDED" value="80cbc4" />
+        <option name="FILESTATUS_ADDED" value="b5bd68" />
         <option name="FILESTATUS_COPIED" value="659d9a" />
         <option name="FILESTATUS_DELETED" value="cc6666" />
         <option name="FILESTATUS_HIJACKED" value="f0c674" />
@@ -34,7 +34,7 @@
         <option name="FILESTATUS_IGNORE.PROJECT_VIEW.IGNORED" value="969896" />
         <option name="FILESTATUS_MERGED" value="65738e" />
         <option name="FILESTATUS_MODIFIED" value="80cbc4" />
-        <option name="FILESTATUS_NOT_CHANGED" value="777B7E" />
+        <option name="FILESTATUS_NOT_CHANGED" value="b4b7b4" />
         <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="80cbc4" />
         <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="80cbc4" />
         <option name="FILESTATUS_SUPPRESSED" value="3c3f41" />
@@ -912,8 +912,8 @@
         <option name="ERL_VARIABLES" baseAttributes="DEFAULT_GLOBAL_VARIABLE" />
         <option name="ERRORS_ATTRIBUTES">
             <value>
-                <option name="EFFECT_COLOR" value="81a2be" />
-                <option name="ERROR_STRIPE_COLOR" value="81a2be" />
+                <option name="EFFECT_COLOR" value="cc6666" />
+                <option name="ERROR_STRIPE_COLOR" value="cc6666" />
                 <option name="EFFECT_TYPE" value="2" />
             </value>
         </option>

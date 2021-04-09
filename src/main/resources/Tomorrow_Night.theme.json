@@ -4,105 +4,96 @@
   "author": "",
   "editorScheme": "/Tomorrow_Night.xml",
   "colors": {
-    "bg0": "#1d1f21",
-    "bg1": "#373b41",
-    "bg2": "#504945",
-    "bg3": "#665c54",
-    "bg4": "#7c6f64",
-    "bg": "#1d1f21",
 
-    "fg": "#c5c8c6",
-
-    "red0": "#cc6666",
-    "red1": "#fb4934",
-    "green0": "#b5bf68",
-    "green1": "#b8bb26",
-    "yellow0": "#f0c674",
-    "yellow1": "#fabd2f",
-    "blue0": "#81a2be",
-    "blue1": "#83a598",
-    "purple0": "#b294bb",
-    "purple1": "#d3869b",
-    "aqua0": "#8abeb7",
-    "aqua1": "#8ec07c",
-    "gray0": "#a89984",
-    "gray1": "#928374",
-    "orange0": "#f5871f",
-    "orange1": "#fe8019"
+    "base00": "#1d1f21",
+    "base01": "#282a2e",
+    "base02": "#373b41",
+    "base03": "#969896",
+    "base04": "#b4b7b4",
+    "base05": "#c5c8c6",
+    "base06": "#e0e0e0",
+    "base07": "#ffffff",
+    "base08": "#cc6666",
+    "base09": "#de935f",
+    "base0A": "#f0c674",
+    "base0B": "#b5bd68",
+    "base0C": "#8abeb7",
+    "base0D": "#81a2be",
+    "base0E": "#b294bb",
+    "base0F": "#a3685a"
   },
   "ui": {
     "*": {
-      "background": "bg",
-      "foreground": "fg",
+      "background": "base00",
+      "foreground": "base05",
 
-      "infoForeground": "fg",
+      "infoForeground": "base05",
 
-      "lightSelectionBackground": "bg1",
-      "selectionBackground": "bg1",
-      "selectionForeground": "fg",
+      "lightSelectionBackground": "base01",
+      "selectionBackground": "base01",
+      "selectionForeground": "base05",
 
-      "selectionBackgroundInactive": "bg0",
-      "selectionInactiveBackground": "bg0",
-
-      "selectedBackground": "bg0",
-      "selectedForeground": "fg",
-      "selectedInactiveBackground": "bg0",
-      "selectedBackgroundInactive": "bg0",
+      "selectionBackgroundInactive": "base01",
+      "selectionInactiveBackground": "base01",
+      "selectedBackground": "base00",
+      "selectedForeground": "base05",
+      "selectedInactiveBackground": "base00",
+      "selectedBackgroundInactive": "base00",
 
       "hoverBackground": "#28282866",
 
-      "borderColor": "bg2",
-      "disabledBorderColor": "bg0",
+      "borderColor": "base02",
+      "disabledBorderColor": "base00",
 
-      "separatorColor": "bg2"
+      "separatorColor": "base03"
     },
     "ActionButton": {
-      "hoverBackground": "bg2"
+      "hoverBackground": "base01"
     },
     "Button": {
-      "startBackground": "bg",
-      "endBackground": "bg",
-      "startBorderColor": "bg2",
-      "endBorderColor": "bg2",
+      "startBackground": "base00",
+      "endBackground": "base00",
+      "startBorderColor": "base02",
+      "endBorderColor": "base02",
 
       "default": {
-        "foreground": "fg",
+        "foreground": "base05",
         "startBackground": "#32302F",
         "endBackground": "#32302F",
         "startBorderColor": "#4F4945",
         "endBorderColor": "#4F4945",
-        "focusedBorderColor": "bg"
+        "focusedBorderColor": "base00"
       }
     },
     "ComboBox": {
-      "nonEditableBackground": "bg",
+      "nonEditableBackground": "base00",
       "ArrowButton": {
-        "iconColor": "fg",
-        "disabledIconColor": "fg",
-        "nonEditableBackground": "bg"
+        "iconColor": "base05",
+        "disabledIconColor": "base05",
+        "nonEditableBackground": "base00"
       }
     },
     "EditorTabs": {
-      "underlinedTabBackground": "bg2",
-      "underlineColor": "blue1"
+      "underlinedTabBackground": "base02",
+      "underlineColor": "base0D"
     },
     "ToolWindow": {
       "Header": {
-        "background": "bg0",
-        "inactiveBackground": "bg"
+        "background": "base00",
+        "inactiveBackground": "base00"
       },
 
       "HeaderTab": {
-        "selectedInactiveBackground": "bg0",
-        "hoverInactiveBackground": "bg0"
+        "selectedInactiveBackground": "base01",
+        "hoverInactiveBackground": "base01"
       }
     },
     "Table": {
-      "stripeColor": "bg0",
-      "lightSelectionForeground": "fg",
-      "lightSelectionInactiveForeground":"fg",
-      "lightSelectionBackground": "bg2",
-      "lightSelectionInactiveBackground":"bg"
+      "stripeColor": "base00",
+      "lightSelectionForeground": "base05",
+      "lightSelectionInactiveForeground":"base05",
+      "lightSelectionBackground": "base01",
+      "lightSelectionInactiveBackground":"base00"
     },
     "FileColor": {
       "Yellow": "#f0c67422",
@@ -113,10 +104,10 @@
       "Rose": "#cc666622"
     },
     "Link": {
-      "activeForeground": "blue1",
-      "hoverForeground": "blue1",
-      "pressedForeground": "blue1",
-      "visitedForeground": "blue1"
+      "activeForeground": "base0D",
+      "hoverForeground": "base0D",
+      "pressedForeground": "base0D",
+      "visitedForeground": "base0D"
     }
   },
   "icons": {
