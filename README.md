@@ -14,7 +14,9 @@
 - [ ] Click the <kbd>Watch</kbd> button on the top of the [IntelliJ Platform Plugin Template][template] to be notified about releases containing new features and fixes.
 
 <!-- Plugin description -->
-A tomorrow night theme
+Tomorrow Night Theme for IntelliJ-based IDEs.
+
+This plugin wouldn't be possible without chriskempsonf (for creating the main base-16 architecture and the tomorrow theme) or adilosa (for his Jetbrains base-16 repo on github)
 <!-- Plugin description end -->
 
 ## Installation
