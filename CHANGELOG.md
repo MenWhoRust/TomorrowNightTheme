@@ -3,6 +3,7 @@
 # TomorrowNightTheme Changelog
 
 ## [Unreleased]
+## [0.0.11]
 ## [0.0.10]
 ## [0.0.9]
 ## [0.0.8]
