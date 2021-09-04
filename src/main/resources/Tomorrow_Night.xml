@@ -1,6 +1,4 @@
 <scheme name="Tomorrow Night" version="142" parent_scheme="Darcula">
-  <option name="FONT_SCALE" value="1.0" />
-  <option name="LINE_SPACING" value="1.2" />
   <font>
     <option name="EDITOR_FONT_NAME" value="JetBrains Mono" />
     <option name="EDITOR_FONT_SIZE" value="13" />
@@ -9,7 +7,6 @@
     <option name="EDITOR_FONT_NAME" value="Source Code Pro" />
     <option name="EDITOR_FONT_SIZE" value="13" />
   </font>
-  <option name="CONSOLE_FONT_NAME" value="JetBrains Mono" />
   <colors>
     <option name="ADDED_LINES_COLOR" value="b5bd68" />
     <option name="ANNOTATIONS_COLOR" value="c5c8c6" />
@@ -3117,7 +3114,7 @@
     </option>
     <option name="TEXT">
       <value>
-        <option name="FOREGROUND" value="a3685a" />
+        <option name="FOREGROUND" value="c5c8c6" />
         <option name="BACKGROUND" value="1d1f21" />
         <option name="EFFECT_TYPE" value="5" />
       </value>
@@ -3228,13 +3225,6 @@
         <option name="FOREGROUND" value="c5c8c6" />
       </value>
     </option>
-    <option name="XML_TAG_DATA">
-      <value>
-        <option name="FOREGROUND" value="a3685a" />
-        <option name="BACKGROUND" value="1d1f21" />
-        <option name="EFFECT_TYPE" value="5" />
-      </value>
-    </option>
     <option name="XML_TAG_NAME">
       <value>
         <option name="FOREGROUND" value="cc6666" />
@@ -3282,5 +3272,9 @@
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
+    <option name="XML_TAG_DATA" baseAttributes="TEXT" />
   </attributes>
+  <option name="FONT_SCALE" value="1.0" />
+  <option name="LINE_SPACING" value="1.2" />
+  <option name="CONSOLE_FONT_NAME" value="JetBrains Mono" />
 </scheme>
