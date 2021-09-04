@@ -396,7 +396,7 @@
     </option>
     <option name="CONSOLE_NORMAL_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="a3685a" />
+        <option name="FOREGROUND" value="c5c8c6" />
       </value>
     </option>
     <option name="CONSOLE_OUTPUT">
@@ -3225,6 +3225,7 @@
         <option name="FOREGROUND" value="c5c8c6" />
       </value>
     </option>
+    <option name="XML_TAG_DATA" baseAttributes="TEXT" />
     <option name="XML_TAG_NAME">
       <value>
         <option name="FOREGROUND" value="cc6666" />
@@ -3272,7 +3273,6 @@
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
-    <option name="XML_TAG_DATA" baseAttributes="TEXT" />
   </attributes>
   <option name="FONT_SCALE" value="1.0" />
   <option name="LINE_SPACING" value="1.2" />
