@@ -3,10 +3,6 @@
     <option name="EDITOR_FONT_NAME" value="JetBrains Mono" />
     <option name="EDITOR_FONT_SIZE" value="13" />
   </font>
-  <font>
-    <option name="EDITOR_FONT_NAME" value="Source Code Pro" />
-    <option name="EDITOR_FONT_SIZE" value="13" />
-  </font>
   <colors>
     <option name="ADDED_LINES_COLOR" value="b5bd68" />
     <option name="ANNOTATIONS_COLOR" value="c5c8c6" />
