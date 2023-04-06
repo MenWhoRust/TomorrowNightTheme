@@ -1,8 +1,8 @@
 # TomorrowNightTheme
 
-![Build](https://github.com/MenWhoRust/not-in-use/workflows/Build/badge.svg)
-[![Version](https://img.shields.io/jetbrains/plugin/v/PLUGIN_ID.svg)](https://plugins.jetbrains.com/plugin/PLUGIN_ID)
-[![Downloads](https://img.shields.io/jetbrains/plugin/d/PLUGIN_ID.svg)](https://plugins.jetbrains.com/plugin/PLUGIN_ID)
+![Build](https://github.com/MenWhoRust/TomorrowNightTheme/workflows/Build/badge.svg)
+[![Version](https://img.shields.io/jetbrains/plugin/v/com.github.menwhorust.tomorrownighttheme.svg)](https://plugins.jetbrains.com/plugin/16496-tomorrow-night-theme)
+[![Downloads](https://img.shields.io/jetbrains/plugin/d/com.github.menwhorust.tomorrownighttheme.svg)](https://plugins.jetbrains.com/plugin/16496-tomorrow-night-theme)
 
 ## Template ToDo list
 - [x] Create a new [IntelliJ Platform Plugin Template][template] project.
