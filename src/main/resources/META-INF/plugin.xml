@@ -12,4 +12,8 @@
         <themeProvider id="89af85a8-555f-447d-979a-a86e05828058" path="/Tomorrow_Night.theme.json"/>
     </extensions>
 
+    <description>
+        An implementation of the Tomorrow Night Theme for the IntelliJ IDE platform.
+    </description>
+
 </idea-plugin>
