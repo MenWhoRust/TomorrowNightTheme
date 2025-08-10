@@ -18,11 +18,7 @@ jobs:
       pull-requests: write
     steps:
 
-      # Check out the current repository
-      - name: Fetch Sources
-        uses: actions/checkout@v4
-        with:
-          ref: ${{ github.event.release.tag_name }}
+
 
       # Free GitHub Actions Environment Disk Space
       - name: Maximize Build Space
@@ -30,6 +26,12 @@ jobs:
         with:
           tool-cache: false
           large-packages: false
+          
+          # Check out the current repository
+      - name: Fetch Sources
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.release.tag_name }}
 
       # Set up Java environment for the next steps
       - name: Setup Java
@@ -41,6 +43,8 @@ jobs:
       # Setup Gradle
       - name: Setup Gradle
         uses: gradle/actions/setup-gradle@v4
+        with:
+          cache-read-only: true
 
       # Set environment variables
       - name: Export Properties
