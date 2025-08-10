@@ -50,6 +50,11 @@
     "ActionButton": {
       "hoverBackground": "base01"
     },
+    "SearchOption": {
+      "selectedBackground": "base0D",
+      "selectedHoveredBackground": "base0C",
+      "selectedPressedBackground": "base0C"
+    },
     "Button": {
       "startBackground": "base00",
       "endBackground": "base00",
