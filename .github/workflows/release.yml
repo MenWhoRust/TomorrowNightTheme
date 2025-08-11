@@ -18,35 +18,20 @@ jobs:
       pull-requests: write
     steps:
 
-      # Check out the current repository
+
+
+      # Free GitHub Actions Environment Disk Space
+      - name: Maximize Build Space
+        uses: jlumbroso/free-disk-space@v1.3.1
+        with:
+          tool-cache: false
+          large-packages: false
+          
+          # Check out the current repository
       - name: Fetch Sources
         uses: actions/checkout@v4
         with:
           ref: ${{ github.event.release.tag_name }}
-
-      - name: Cleanup
-        id: cleanup
-        shell: bash
-        run: |
-          echo "=============================================================================="
-          echo "Freeing up disk space on CI system"
-          echo "=============================================================================="
-          echo "Listing 100 largest packages"
-          dpkg-query -Wf '${Installed-Size}\t${Package}\n' | sort -n | tail -n 100
-          df -h
-          echo "Removing large packages"
-          sudo apt-get remove -y '^ghc.*'
-          sudo apt-get remove -y '^dotnet-.*'
-          sudo apt-get remove -y '^llvm-.*'
-          sudo apt-get remove -y 'php.*'
-          sudo apt-get remove -y azure-cli firefox powershell mono-devel
-          sudo apt-get autoremove -y
-          sudo apt-get clean
-          df -h
-          echo "Removing large directories"
-          # deleting 15GB
-          rm -rf /usr/share/dotnet/
-          df -h
 
       # Set up Java environment for the next steps
       - name: Setup Java
@@ -58,6 +43,8 @@ jobs:
       # Setup Gradle
       - name: Setup Gradle
         uses: gradle/actions/setup-gradle@v4
+        with:
+          cache-read-only: true
 
       # Set environment variables
       - name: Export Properties
